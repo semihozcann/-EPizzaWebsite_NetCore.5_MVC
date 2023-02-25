@@ -1,0 +1,30 @@
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.csproj.AssemblyReference.cache
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.AssemblyInfoInputs.cache
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.AssemblyInfo.cs
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.csproj.CoreCompileInputs.cache
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\bin\Debug\net5.0\ePizza.Entities.deps.json
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\bin\Debug\net5.0\ePizza.Entities.dll
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\bin\Debug\net5.0\ePizza.Entities.pdb
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\bin\Debug\net5.0\ePizza.Shared.dll
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\bin\Debug\net5.0\ePizza.Shared.pdb
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.csproj.CopyComplete
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.dll
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\obj\Debug\net5.0\refint\ePizza.Entities.dll
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.pdb
+C:\Users\semih\Desktop\C# Kodları\Devam Eden Projeler\ePizza\ePizza.Entities\obj\Debug\net5.0\ref\ePizza.Entities.dll
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.csproj.AssemblyReference.cache
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.AssemblyInfoInputs.cache
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.AssemblyInfo.cs
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.csproj.CoreCompileInputs.cache
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.dll
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\obj\Debug\net5.0\refint\ePizza.Entities.dll
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.pdb
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\bin\Debug\net5.0\ePizza.Entities.deps.json
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\bin\Debug\net5.0\ePizza.Entities.dll
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\bin\Debug\net5.0\ePizza.Entities.pdb
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\bin\Debug\net5.0\ePizza.Shared.dll
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\bin\Debug\net5.0\ePizza.Shared.pdb
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\obj\Debug\net5.0\ePizza.Entities.csproj.CopyComplete
+C:\Users\semih\Desktop\EPizzaWebsite_NetCore.5_MVC-main\EPizzaWebsite_NetCore.5_MVC-main\ePizza.Entities\obj\Debug\net5.0\ref\ePizza.Entities.dll

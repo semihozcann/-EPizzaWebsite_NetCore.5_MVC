@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ePizza.Entities", "ePizza.Entities\ePizza.Entities.csproj", "{F953B5EA-2EB7-4BAD-999B-7B15F9CD9757}"
+	ProjectSection(ProjectDependencies) = postProject
+		{037A9E3B-011B-4027-BA49-47F95C6ABD78} = {037A9E3B-011B-4027-BA49-47F95C6ABD78}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ePizza.Data", "ePizza.Data\ePizza.Data.csproj", "{F96D2D27-2A40-4FA9-A405-E1929C82C617}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ePizza.Repositories", "ePizza.Repositories\ePizza.Repositories.csproj", "{E88CA1E0-6163-4681-8A01-CDB8C5552955}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ePizza.Shared", "ePizza.Shared\ePizza.Shared.csproj", "{037A9E3B-011B-4027-BA49-47F95C6ABD78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ePizza.Services", "ePizzaServices\ePizza.Services.csproj", "{B2C2B1F2-ABED-4871-A4B8-84B6819C2207}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ePizza.UI", "ePizza.UI\ePizza.UI.csproj", "{A51EC2C4-1972-4F1C-B981-E2073101C5D2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B2C2B1F2-ABED-4871-A4B8-84B6819C2207} = {B2C2B1F2-ABED-4871-A4B8-84B6819C2207}
+		{E88CA1E0-6163-4681-8A01-CDB8C5552955} = {E88CA1E0-6163-4681-8A01-CDB8C5552955}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F953B5EA-2EB7-4BAD-999B-7B15F9CD9757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F953B5EA-2EB7-4BAD-999B-7B15F9CD9757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F953B5EA-2EB7-4BAD-999B-7B15F9CD9757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F953B5EA-2EB7-4BAD-999B-7B15F9CD9757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F96D2D27-2A40-4FA9-A405-E1929C82C617}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F96D2D27-2A40-4FA9-A405-E1929C82C617}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F96D2D27-2A40-4FA9-A405-E1929C82C617}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F96D2D27-2A40-4FA9-A405-E1929C82C617}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E88CA1E0-6163-4681-8A01-CDB8C5552955}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E88CA1E0-6163-4681-8A01-CDB8C5552955}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E88CA1E0-6163-4681-8A01-CDB8C5552955}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E88CA1E0-6163-4681-8A01-CDB8C5552955}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037A9E3B-011B-4027-BA49-47F95C6ABD78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037A9E3B-011B-4027-BA49-47F95C6ABD78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037A9E3B-011B-4027-BA49-47F95C6ABD78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037A9E3B-011B-4027-BA49-47F95C6ABD78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2C2B1F2-ABED-4871-A4B8-84B6819C2207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2C2B1F2-ABED-4871-A4B8-84B6819C2207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2C2B1F2-ABED-4871-A4B8-84B6819C2207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2C2B1F2-ABED-4871-A4B8-84B6819C2207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A51EC2C4-1972-4F1C-B981-E2073101C5D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A51EC2C4-1972-4F1C-B981-E2073101C5D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A51EC2C4-1972-4F1C-B981-E2073101C5D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A51EC2C4-1972-4F1C-B981-E2073101C5D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7541F315-939D-4BD5-A9C4-43D829021163}
+	EndGlobalSection
+EndGlobal
