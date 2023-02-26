@@ -12,8 +12,9 @@ namespace ePizza.UI.Models
         public string Description { get; set; }
         public string Currency { get; set; }
         public string OrderId { get; set; }
+        public string Receipt { get; set; }
 
 
-        public CartModel CartModel { get; set; }
+        public CartModel Cart { get; set; }
     }
 }
