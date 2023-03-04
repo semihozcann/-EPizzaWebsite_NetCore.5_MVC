@@ -13,7 +13,7 @@ namespace ePizza.Repositories.Interfaces
         Cart GetCart(Guid cartId);
         CartModel GetCartDetails(Guid cartId);
         int DeleteItem(Guid cartId, int productId);
-        int UpdateQuantity(Guid cartId, int productId, int quantity);
+        int UpdateQuantity(Guid cartId,int productId, int quantity);
         int UpdateToCart(Guid cartId, int userId);
     }
 }

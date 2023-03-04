@@ -24,9 +24,9 @@ namespace ePizza.Services.Implementations
         public PaymentManager(IOptions<RazorPayConfig> razorPayConfing, RazorpayClient client, IRepository<PaymentDetails> repository, ICartRepository cartRepository)
         {
             _razorPayConfing = razorPayConfing;
-            _client = client;
             _repository = repository;
             _cartRepository = cartRepository;
+            _client ??= new RazorpayClient(_razorPayConfing.Value.Key, _razorPayConfing.Value.Secret);
         }
 
         public string CapturePayment(string paymentId, string orderId)

@@ -58,7 +58,7 @@ namespace ePizza.Services.Implementations
             }
         }
 
-        public int DeleteItem(Guid cartId, int id, int itemId)
+        public int DeleteItem(Guid cartId, int itemId)
         {
             return _cartRepository.DeleteItem(cartId, itemId);
         }

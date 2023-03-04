@@ -1,4 +1,6 @@
+using ePizza.Repositories.AutoMapper.Profiles;
 using ePizza.Services.Configuration;
+using ePizza.Services.Models;
 using ePizza.UI.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,10 +17,13 @@ namespace ePizza.UI
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration)
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Configuration = configuration;
+            Env = env;
         }
+
+        readonly IWebHostEnvironment Env;
 
         public IConfiguration Configuration { get; }
 
@@ -27,7 +32,21 @@ namespace ePizza.UI
         {
             ConfigureRepositories.AddService(services, Configuration);
             ConfigureDependencies.AddServices(services);
+
+            services.AddAutoMapper(typeof(ProductProfile));
+            var builder = services.AddControllersWithViews();
+
+            if (Env.IsDevelopment())
+            {
+            
+               builder.AddRazorRuntimeCompilation();
+            
+            }
+
+            services.Configure<RazorPayConfig>(Configuration.GetSection("RazorPayConfig"));
+
             services.AddControllersWithViews();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

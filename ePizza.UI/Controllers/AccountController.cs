@@ -1,4 +1,6 @@
-﻿using ePizza.Services.Interfaces;
+﻿using ePizza.Entities.Concrete;
+using ePizza.Repositories.Models;
+using ePizza.Services.Interfaces;
 using ePizza.UI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
@@ -55,5 +57,45 @@ namespace ePizza.UI.Controllers
             }
             return View("Login");
         }
+
+        [HttpGet]
+        public IActionResult SignUp()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult SignUp(UserViewModel userViewModel)
+        {
+            if (!ModelState.IsValid)
+            {
+                User user = new User
+                {
+                    Name = userViewModel.Name,
+                    UserName = userViewModel.Email,
+                    Email = userViewModel.Email,
+                    PhoneNumber = userViewModel.PhoneNumber,
+                };
+                bool result = _authenticationService.CreateUser(user, userViewModel.Password);
+                if (result)
+                {
+                    return RedirectToAction("Login");
+                }
+            }
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult LogOutComplete()
+        {
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult Unauthorize()
+        {
+            return View();
+        }
+
     }
 }
